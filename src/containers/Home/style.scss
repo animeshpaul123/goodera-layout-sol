@@ -1,0 +1,56 @@
+.home-wrapper {
+    // max-width: 1200px;
+    min-height: calc(100vh - 160px);
+
+    // @media screen and (min-width: 768px){
+    //     flex-flow: row wrap;
+    //     padding: 3.5rem 5rem;
+    // }
+
+    .hero {
+        color: #fff;
+        background: linear-gradient(to left, #5DB0DF, #5D7ADF);
+        position: relative;
+        .hero-inner {
+            min-height: 364px;
+        }
+        .heading {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            .h1 {
+                font-size: 2.5rem;
+                font-weight: 700;
+                letter-spacing: 1px;
+                margin-bottom: 0px;
+                line-height: 1.2;
+            }
+            .h2 {
+                margin: 0;
+            }
+            @media screen and (max-width: 767px){
+                .h1 {
+                    font-size: 1.6rem;
+                }
+                .h2 {
+                    margin: 0;
+                    font-size: 0.76rem;
+                }
+            }
+        }
+    }
+    .main {
+        background: #E5E5E5;
+        .main-inner {
+            position: relative;
+            .cards-wrapper {
+                padding: 80px 0 20px;
+                @media screen and (min-width: 768px){
+                    padding: 100px 0 0;
+                    display: flex;
+                    flex-flow: row wrap;
+                }
+            }
+        }
+    }
+}

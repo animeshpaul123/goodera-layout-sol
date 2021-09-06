@@ -1,0 +1,80 @@
+$danger: #d24848;
+@mixin Center ($position: "center") {
+  display: flex;
+  justify-content: $position;
+  align-items: center;
+}
+
+.max-width-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.d-flex {
+  display: flex;
+  &.direction-column {
+    flex-direction: column;
+  }
+  &.direction-row {
+    flex-direction: row;
+  }
+}
+.jc-center {
+  justify-content: center;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+.jc-space-around {
+  justify-content: space-around;
+}
+.jc-flex-end {
+  justify-content: flex-end;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+
+.button-fill {
+  background: #F07987;
+  color: #fff;
+}
+.button-outlined {
+  border: 1px solid #F07987;
+  color: #F07987;
+}
+
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none;
+}
+.d-md-none {
+  @media screen and (min-width: 768px){
+    display: none;
+  }
+}
+.d-md-block {
+  @media screen and (min-width: 768px){
+    display: block;
+  }
+}
+.d-md-flex {
+  @media screen and (min-width: 768px){
+    display: flex;
+  }
+}

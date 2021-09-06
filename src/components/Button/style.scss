@@ -1,0 +1,13 @@
+button {
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all;
+    background: #fff;
+}
+button:active {
+    position: relative;
+    top: 1px;
+}
