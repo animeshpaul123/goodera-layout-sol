@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Live site:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was deployed to [https://animeshpaul123.github.io/goodera-layout-sol/](https://animeshpaul123.github.io/goodera-layout-sol/).
 
 ## Available Scripts
 
